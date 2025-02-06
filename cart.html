@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart - QuickCommerce</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>QuickCommerce</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Your Cart</h2>
+    <div class="cart-items" id="cart-items">
+      <!-- Dynamic content will go here -->
+    </div>
+    <div class="cart-total">
+      <p>Total: ₹<span id="total-price">0</span></p>
+      <button onclick="location.href='checkout.html'">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>QuickCommerce © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
